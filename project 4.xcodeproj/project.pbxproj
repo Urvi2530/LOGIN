@@ -14,6 +14,7 @@
 		C93182892320F9F000125C76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C93182872320F9F000125C76 /* LaunchScreen.storyboard */; };
 		C93182942320F9F000125C76 /* project_4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93182932320F9F000125C76 /* project_4Tests.swift */; };
 		C931829F2320F9F000125C76 /* project_4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C931829E2320F9F000125C76 /* project_4UITests.swift */; };
+		C9972B7A23224EE1008CB8B4 /* Subclass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9972B7923224EE1008CB8B4 /* Subclass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C931829A2320F9F000125C76 /* project 4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "project 4UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C931829E2320F9F000125C76 /* project_4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project_4UITests.swift; sourceTree = "<group>"; };
 		C93182A02320F9F000125C76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9972B7923224EE1008CB8B4 /* Subclass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subclass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		C931827D2320F9F000125C76 /* project 4 */ = {
 			isa = PBXGroup;
 			children = (
+				C9972B7823224E38008CB8B4 /* New Group */,
 				C931827E2320F9F000125C76 /* AppDelegate.swift */,
 				C93182802320F9F000125C76 /* ViewController.swift */,
 				C93182822320F9F000125C76 /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				C93182A02320F9F000125C76 /* Info.plist */,
 			);
 			path = "project 4UITests";
+			sourceTree = "<group>";
+		};
+		C9972B7823224E38008CB8B4 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				C9972B7923224EE1008CB8B4 /* Subclass.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9972B7A23224EE1008CB8B4 /* Subclass.swift in Sources */,
 				C93182812320F9F000125C76 /* ViewController.swift in Sources */,
 				C931827F2320F9F000125C76 /* AppDelegate.swift in Sources */,
 			);
